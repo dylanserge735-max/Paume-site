@@ -3,153 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PAUME – Pour avoir un meilleur environnement. Les volontaires du développement.">
-    <title>Accueil | PAUME ONG</title>
+    <title>PAUME - Pour Avoir Un Meilleur Environnement</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="site-header">
-        <div class="container inner-title">
-            <a class="brand" href="index.html" aria-label="PAUME - accueil">
-                <img class="logo" src="logo.jpg" alt="PAUME – Pour avoir un meilleur environnement">
-            </a>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="qui-sommes-nous.html">Qui sommes-nous</a></li>
-                    <li><a href="domaines.html">Nos domaines</a></li>
-                    <li><a href="projets.html">Nos projets</a></li>
-                    <li><a href="galerie.html">Galerie</a></li>
-                    <li><a href="actualites.html">Actualités</a></li>
-                    <li><a href="nous-rejoindre.html">Nous rejoindre</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="rapports.html">Rapports</a></li>
-                    <li><a href="supporter.html" class="btn-soutenir">Nous soutenir</a></li>
-                </ul>
-            </nav>
+    <!-- HEADER -->
+    <header>
+        <div class="container top-bar">
+            <div class="menu-icon">☰</div>
+            <div class="logo-area">
+                <img class="logo" src="logo.jpg" alt="PAUME">
+                <div>
+                    <h1>PAUME</h1>
+                    <p>Pour Avoir Un Meilleur Environnement</p>
+                </div>
+            </div>
+            <a href="nous-rejoindre.html" class="btn-rejoindre">Nous rejoindre</a>
         </div>
+
+        <!-- MENU BLEU -->
+        <nav class="main-nav">
+            <div class="container">
+                <a href="index.html" class="active">🏠 Accueil</a>
+                <a href="qui-sommes-nous.html">👥 Qui sommes-nous</a>
+                <a href="domaines.html">🍃 Nos domaines</a>
+                <a href="projets.html">💼 Nos projets</a>
+                <a href="actualites.html">📰 Actualités</a>
+                <a href="galerie.html">🖼️ Galerie</a>
+                <a href="supporter.html">❤️ Nous soutenir</a>
+                <a href="contact.html">✉️ Contact</a>
+            </div>
+        </nav>
     </header>
 
-    <section class="heros">
-        <div class="heros-medias">
-            <img src="photo1.jpg" alt="Volontaires mobilisés lors d'un nettoyage">
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2>AGIR POUR<br>UN AVENIR DURABLE</h2>
+                <div class="ligne"></div>
+                <p>Ensemble, construisons un environnement sain, une société solidaire et un futur meilleur pour tous.</p>
+                <div class="hero-btns">
+                    <a href="projets.html" class="btn btn-bleu">Découvrir nos actions</a>
+                    <a href="supporter.html" class="btn btn-blanc">Nous soutenir</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="photo1.jpg" alt="Équipe PAUME en action">
+            </div>
         </div>
-        <div class="container heros-contenu">
-            <div class="heros-copie">
-                <span class="badge">PAUME ONG - Yamoussoukro</span>
-                <h1>Agir pour un avenir durable.</h1>
-                <div class="souligner"></div>
-                <p>Pour Avoir un Meilleur Environnement : des volontaires engagés pour la salubrité, la sensibilisation, la solidarité.</p>
-                <div class="actions">
-                    <a class="bouton bouton-primaire" href="projets.html">Découvrir nos actions</a>
-                    <a class="bouton bouton-contour" href="supporter.html">Nous soutenir</a>
+    </section>
+
+    <!-- MISSION -->
+    <section class="mission">
+        <div class="container mission-content">
+            <img src="photo4.jpg" alt="Main avec plante">
+            <div>
+                <h3>NOTRE MISSION</h3>
+                <p>PAUME est une ONG engagée pour la protection de l'environnement et le développement humain durable à travers l'éducation, l'épanouissement, l'entraide et des initiatives économiques solidaires.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOMAINES -->
+    <section class="domaines">
+        <div class="container">
+            <h3>NOS DOMAINES D'INTERVENTION</h3>
+            <div class="ligne-centre"></div>
+            <div class="domaines-grid">
+                <div class="domaine-carte">
+                    <div class="icone">🍃</div>
+                    <h4>Environnement</h4>
+                    <p>Reboisement, sensibilisation, salubrité et protection de la biodiversité.</p>
+                </div>
+                <div class="domaine-carte">
+                    <div class="icone">📖</div>
+                    <h4>Éducation</h4>
+                    <p>Formations, soutien scolaire et renforcement des capacités des jeunes.</p>
+                </div>
+                <div class="domaine-carte">
+                    <div class="icone">⭐</div>
+                    <h4>Épanouissement</h4>
+                    <p>Leadership, développement personnel et autonomisation des jeunes.</p>
+                </div>
+                <div class="domaine-carte">
+                    <div class="icone">🤝</div>
+                    <h4>Entraide</h4>
+                    <p>Actions sociales, solidarité et soutien aux populations vulnérables.</p>
+                </div>
+                <div class="domaine-carte">
+                    <div class="icone">📈</div>
+                    <h4>Économie</h4>
+                    <p>Promotion de l'entrepreneuriat, insertion professionnelle et développement local.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="container mission">
-            <img src="photo4.jpg" alt="Équipe et volontaires PAUME réunis sur le terrain">
-            <div class="mission-copie">
-                <span class="badge">Notre mission</span>
-                <h2>Pour avoir un meilleur environnement</h2>
-                <p>PAUME est une ONG engagée pour la protection de l'environnement et le développement humain durable à travers l'éducation, la sensibilisation et des actions concrètes de terrain.</p>
-                <a class="lien-texte" href="qui-sommes-nous.html">Découvrir PAUME -></a>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" style="background: #f8f8f8">
+    <!-- ACTIONS RECENTES -->
+    <section class="actions">
         <div class="container">
-            <div class="section-header">
-                <span class="badge">Nos domaines d'intervention</span>
-                <h2>Agir sur le terrain, pour les populations</h2>
-            </div>
-            <div class="domaines">
-                <div class="domaine"><div class="icone"></div><div><h3>Environnement</h3><p>Reboisement, sensibilisation, salubrité et gestion des déchets.</p></div></div>
-                <div class="domaine"><div class="icone"></div><div><h3>Education</h3><p>Formation, soutien scolaire et renforcement des capacités.</p></div></div>
-                <div class="domaine"><div class="icone"></div><div><h3>Epanouissement</h3><p>Leadership, développement personnel et engagement citoyen.</p></div></div>
-                <div class="domaine"><div class="icone"></div><div><h3>Entraide</h3><p>Actions sociales, solidarité et soutien aux populations vulnérables.</p></div></div>
-                <div class="domaine"><div class="icone"></div><div><h3>Économie</h3><p>Entrepreneuriat, insertion professionnelle et autonomisation.</p></div></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="badge">PAUME en action</span>
-                <h2>Des volontaires qui passent à l'acte</h2>
-            </div>
-            <div class="cartes">
-                <article class="carte">
-                    <img src="photo2.jpg" alt="Volontaire PAUME participant au Nettoyage">
-                    <h3>Nettoyage Citoyen</h3>
-                </article>
-                <article class="carte">
-                    <img src="photo3.jpg" alt="Sensibilisation des commerçants">
-                    <h3>Sensibilisation</h3>
-                </article>
-                <article class="carte">
-                    <img src="photo5.jpg" alt="Volontaires PAUME en action">
-                    <h3>Engagement</h3>
-                </article>
-            </div>
-            <div class="center"><a class="bouton bouton-primaire" href="galerie.html">Voir toute la galerie</a></div>
-        </div>
-    </section>
-
-    <section class="section section-cta">
-        <div class="container impact-band-content">
-            <span class="badge">Sur le terrain</span>
-            <h2>Un impact local, un impact collectif.</h2>
-            <p>Les photos de nos actions parlent d'elles-mêmes. Rejoignez-nous pour faire la différence.</p>
-            <a class="bouton bouton-contour" href="actualites.html">Voir les actualités</a>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <div class="cta-box">
-                <span class="badge">Rejoignez le mouvement</span>
-                <h2>Votre engagement peut faire la différence</h2>
-                <p>Devenez volontaire ou partenaire de PAUME pour construire ensemble un avenir meilleur.</p>
-                <div class="actions">
-                    <a class="bouton bouton-primaire" href="nous-rejoindre.html">Nous rejoindre</a>
-                    <a class="bouton bouton-contour" href="contact.html">Nous contacter</a>
+            <h3>NOS ACTIONS RÉCENTES</h3>
+            <div class="ligne-centre"></div>
+            <div class="actions-grid">
+                <div class="action-carte">
+                    <img src="photo2.jpg" alt="Nettoyage">
+                    <h4>Actions environnementales</h4>
+                    <p>Nettoyage et assainissement de nos quartiers.</p>
+                </div>
+                <div class="action-carte">
+                    <img src="photo3.jpg" alt="Sensibilisation">
+                    <h4>Sensibilisation terrain</h4>
+                    <p>Sensibilisation des populations pour un meilleur environnement.</p>
+                </div>
+                <div class="action-carte">
+                    <img src="photo5.jpg" alt="Engagement">
+                    <h4>Engagement communautaire</h4>
+                    <p>Écoute, échange et accompagnement des communautés.</p>
                 </div>
             </div>
+            <div class="center">
+                <a href="galerie.html" class="btn btn-bleu">Voir toutes nos actions</a>
+            </div>
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
-        <div class="container footer-grid">
+        <div class="container footer-top">
             <div>
-                <img class="logo-footer" src="logo.jpg" alt="PAUME">
-                <p>Pour avoir un meilleur environnement : les volontaires du développement.</p>
+                <h4>Secrétaire Générale</h4>
+                <p>✉️ yaodavila557@gmail.com</p>
+                <p>📞 +225 01 52 33 34 48</p>
             </div>
             <div>
-                <h3>Navigation</h3>
-                <ul>
-                    <li><a href="qui-sommes-nous.html">Qui sommes-nous</a></li>
-                    <li><a href="domaines.html">Nos domaines</a></li>
-                    <li><a href="projets.html">Nos projets</a></li>
-                    <li><a href="actualites.html">Actualités</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                <h4>NOUS REJOINDRE</h4>
+                <p>✉️ nicodeme095@gmail.com</p>
+                <p>📞 07 08 27 05 88</p>
             </div>
             <div>
-                <h3>Nous contacter</h3>
-                <a href="mailto:yaodavila557@gmail.com">yaodavila557@gmail.com</a>
-                <a href="https://wa.me/2250252333448" target="_blank" rel="noopener">WhatsApp : +225 01 52 33 34 48</a>
-                <a href="mailto:auxiliaricarinodemo095@gmail.com">auxiliaricarinodemo095@gmail.com</a>
-                <a href="tel:+2250708705088">+225 07 08 27 05 88</a>
-                <a href="https://www.facebook.com/share/1BjDZamgf?mibextid=wwxif" target="_blank" rel="noopener">Facebook : PAUME ONG</a>
+                <h4>Suivez-nous</h4>
+                <div class="socials">
+                    <a href="#">f</a>
+                    <a href="#">in</a>
+                    <a href="#">w</a>
+                </div>
             </div>
         </div>
-        <div class="copyright"> © 2025 PAUME ONG - Tous droits réservés.</div>
+        <div class="footer-bottom">
+            © 2026 PAUME ONG – Tous droits réservés.
+        </div>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
