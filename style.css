@@ -74,3 +74,17 @@ footer{background:var(--grey-100);}
   .domain-grid{grid-template-columns:repeat(2,1fr);}
   .action-grid{grid-template-columns:1fr;}
 }
+/* MENU BLEU */
+.nav{background:var(--blue-800);}
+.nav ul{
+  list-style:none;display:flex;margin:0;padding:0;
+  max-width:1180px;margin:0 auto;overflow-x:auto;
+}
+.nav li{flex:0 0 auto;}
+.nav a{
+  display:flex;align-items:center;gap:6px;color:#dfe8fb;
+  padding:14px 18px;font-weight:600;font-size:0.9rem;white-space:nowrap;
+  border-bottom:3px solid transparent;transition:0.2s;
+}
+.nav a:hover{background:rgba(255,255,255,0.1);color:#fff;}
+.nav a.active{color:#fff;border-bottom-color:#fff;background:rgba(255,255,255,0.08);}
