@@ -107,3 +107,5 @@ footer{background:var(--grey-100);}
 }
 /* LOGO PLUS GRAND */
 .topbar img{ height:48px; width:auto; }
+.navigation a:hover{background:rgba(255,255,255,0.1);}
+.topbar img{height:48px;width:auto;}
